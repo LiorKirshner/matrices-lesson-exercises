@@ -16,7 +16,7 @@ class Matrix {
     return mat;
   }
 
-  print_mat() {
+  print() {
     for (let i = 0; i < this.Matrix.length; i++) {
       let print = "";
       for (let j = 0; j < this.Matrix[0].length; j++) {
@@ -53,15 +53,15 @@ class Matrix {
 }
 
 //You can paste the code from the lesson below to test your solution
-let mat4 = new Matrix(4);
-console.log(mat4);
-mat4.print_mat(mat4.Matrix);
-console.log(mat4.get(1, 1));
-let m = new Matrix(3, 4);
-m.print_mat();
-console.log(m.findCoordinate(12)); //prints {x: 3, y: 2}
-console.log(m.findCoordinate(7)); //prints {x: 2, y: 1}
-console.log(m.findCoordinate(2)); //prints {x: 2, y: 1}
+// let mat4 = new Matrix(4);
+// console.log(mat4);
+
+// console.log(mat4.get(1, 1));
+// let m = new Matrix(3, 4);
+// m.print();
+// console.log(m.findCoordinate(12)); //prints {x: 3, y: 2}
+// console.log(m.findCoordinate(7)); //prints {x: 2, y: 1}
+// console.log(m.findCoordinate(2)); //prints {x: 2, y: 1}
 
 /* Do not remove the exports below */
 module.exports = Matrix;
