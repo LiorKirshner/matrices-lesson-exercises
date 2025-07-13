@@ -61,6 +61,8 @@ let m = new Matrix(3, 4);
 m.print_mat();
 console.log(m.findCoordinate(12)); //prints {x: 3, y: 2}
 console.log(m.findCoordinate(7)); //prints {x: 2, y: 1}
+console.log(m.findCoordinate(2)); //prints {x: 2, y: 1}
+console.log(m.findCoordinate(2)); //prints {x: 2, y: 1}
 
 /* Do not remove the exports below */
 module.exports = Matrix;
